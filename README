@@ -1,3 +1,6 @@
+HOMEWORK
+Add tests to your homework solution from this week.  Extra credit if you test the node.js server part of your application.
+
 Unit testing with Node
   Get it into your build:  echo $? => 1 if a test fails when run from node
 
