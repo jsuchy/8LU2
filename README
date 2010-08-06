@@ -1,0 +1,10 @@
+Unit testing with Node
+  Get it into your build:  echo $? => 1 if a test fails when run from node
+
+Vows
+  Batches are executed sequentially
+  Contexts (within a batch) are executed in parallel
+  Export a suite in order to allow you to run multiple test suites at once
+  
+http://butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata
+http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata
