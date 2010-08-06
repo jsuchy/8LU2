@@ -13,4 +13,5 @@ vows.describe ('Prime Factors').addBatch({
 			},
 		}
 	}
-}).run();
+}).export(module);
+// }).run();
