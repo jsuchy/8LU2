@@ -26,12 +26,12 @@ function betterTest() {
 	request.end();
 
 	request.on('response', function (response) {
-	  response.setEncoding('utf8');
-	  response.on('data', function (chunk) {
-		// Testing that the right response is sent	
-		assert.strictEqual(chunk, "hello world");
-		assert.ok(callbackFired);
-	  });
+	    response.setEncoding('utf8');
+	    response.on('data', function (chunk) {
+			// Testing that the right response is sent	
+			assert.strictEqual(chunk, "hello world11");
+			assert.ok(callbackFired);
+	    });
 	});
 }
 
